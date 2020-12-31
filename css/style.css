@@ -1,0 +1,86 @@
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+
+.bg-dark {
+  background-color: rgba(1, 6, 19, 0.9) !important;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+ font-size: 18px;
+}
+
+.navbar .nav-item .nav-link:hover{
+  color: #727c86;
+ 
+}
+
+.main-header {
+  position: relative;
+  background: url(../img/fondo2.jpg);
+  background-size: cover;
+  min-height: 620px;
+  background-position: center;
+}
+
+.background-overlay {
+  position: absolute;
+  background: rgba(39, 60, 117,.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control, .btn{
+  border-radius: 0;
+}
+
+.lorem{
+  font-size: 45px;
+}
+
+section .team{
+  background-color: rgba(39, 60, 117,.5);
+}
+
+.about {
+  background-color:#727c86 !important;
+}
+
+img.roses {
+  opacity: 0.8;
+  margin-left: 50px;
+}
+
+i.fa-facebook-f{
+  font-size: 28px;
+  color: #1444ac;
+}
+
+i.fa-twitter{
+  font-size: 28px;
+  color: #55acee;
+}
+
+i.fa-instagram{
+  font-size: 28px;
+  color: #ff0084;
+}
+
+i.fa-facebook-f:hover{
+  font-size: 24px;
+  color: #1444ac;
+}
+
+i.fa-twitter:hover{
+  font-size: 24px;
+  color: #55acee;
+}
+
+i.fa-instagram:hover{
+  font-size: 24px;
+  color: #ff0084;
+}
